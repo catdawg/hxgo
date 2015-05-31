@@ -19,7 +19,7 @@ class MainUnitTest
 
     private function startAfterDuellIsInitialized(): Void
     {
-        r = new TestRunner(testComplete);
+        r = new TestRunner(testComplete, DuellKit.instance().onError);
         r.add(new BasicTest());
 
 #if test

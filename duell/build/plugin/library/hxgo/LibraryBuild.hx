@@ -143,6 +143,7 @@ class LibraryBuild
 
     private function tardisGO()
     {
+        LogHelper.info("Running tardis...");
         CommandHelper.runCommand(Path.join([Configuration.getData().OUTPUT, "hxgo"]),
                                  Path.join([Configuration.getData().OUTPUT,
                                                             "hxgo", "lib", "bin", "tardisgo"]),
