@@ -29,3 +29,6 @@ Use it! example:
   
 ```
 
+# Limitations
+- Only tested on mac!
+- There is a weird problem with big filenames, so if you see something wrong when Tardis runs, it's probably because of that.
