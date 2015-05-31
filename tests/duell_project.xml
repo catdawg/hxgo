@@ -8,7 +8,8 @@
 	<source path="source" />
 
 	<duelllib name="hxgo" version="master" />
-	<duelllib name="unittest" version="1.0.0+" />
+	<duelllib name="unittest" version="4.0.0+" />
+	<duelllib name="duellkit" version="4.0.0+" />
 
 	<library-config>
 		<hxgo>
