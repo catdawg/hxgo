@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<app title="Empty Project" file="EmptyProject" package="com.yourorganisation.emptyproject" version="0.0.1" company="Your Organisation" />
+
+	<main name="MainUnitTest" />
+
+	<source path="source" />
+
+	<duelllib name="hxgo" version="master" />
+	<duelllib name="unittest" version="1.0.0+" />
+
+	<library-config>
+		<hxgo>
+			<go-src value="math" />
+			<go-src value="strconv"/>
+			<go-src value="io/ioutil"/>
+			<go-src value="github.com/koyachi/go-nude" url="github.com/koyachi/go-nude"/>
+		</hxgo>
+	</library-config>
+
+</project>
